@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text to Image Generator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Text to Image Generator</h1>
+        <form action="/generate" method="post">
+            <label for="prompt">Enter Text Prompt:</label>
+            <input type="text" id="prompt" name="prompt" required>
+            <button type="submit">Generate Image</button>
+        </form>
+        <div class="image-container">
+            <img src="" alt="Generated Image" id="generated-image">
+        </div>
+    </div>
+</body>
+</html>
